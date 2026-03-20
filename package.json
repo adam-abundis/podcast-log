@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.91.3",
     "@trpc/client": "^11.13.4",
     "@trpc/next": "^11.13.4",
     "@trpc/react-query": "^11.13.4",
