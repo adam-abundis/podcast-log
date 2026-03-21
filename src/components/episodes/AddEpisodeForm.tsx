@@ -44,9 +44,8 @@ export function AddEpisodeForm() {
         </label>
         <label className="flex flex-col gap-1">
           <span className="text-sm font-medium">Description</span>
-          <input
-            className="w-full border rounded-lg px-3 py-2"
-            type="text"
+          <textarea
+            className="w-full border rounded-lg px-3 py-2 resize-none"
             placeholder="Description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
